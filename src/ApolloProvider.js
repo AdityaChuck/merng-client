@@ -7,7 +7,7 @@ import { ApolloProvider } from '@apollo/react-hooks'
 import { setContext } from 'apollo-link-context'
 
 const httpLink = createHttpLink({
-    uri: `http://192.168.42.147:5000/`
+    uri: `https://merng-server-demo.herokuapp.com/`
 })
 
 const authLink = setContext(() => {
